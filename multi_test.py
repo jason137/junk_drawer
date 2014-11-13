@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import glob, logging, os
+import os
 import multiprocessing as mp
 
 CONST = 10
