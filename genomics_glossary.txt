@@ -1,0 +1,100 @@
+accession number - unique GenBank id
+adenosine triphosphate (ATP) - a form of adenine that serves as an energy storage molecule for the cell
+allele - one of two or more versions of a gene; an individual inherits two alleles for each gene, one from each parent
+amino acid - building blocks of proteins (are 20)
+archae
+Bacteriophage lambda
+base
+binding site
+BLAST
+C. elegans
+catalyst - a substance that speeds up a chemical reaction without undergoing any permanent chemical change itself
+cell - the fundamental biological unit; cells are the "basic building blocks of all living things"
+cell signaling - mechanism that coordinates actions of the cell; basis of development, tissue repair, immunity, homeostasis
+central dogma of molecular bio - DNA makes RNA makes protein!
+chromosome - nuclear structure containing DNA; humans have 23 pairs of autosomes & 1 pair of sex chromosomes
+codon - a sequence of three nucleotides that codes for a particular amino acid
+complementary strand
+D. melanogaster
+deoxyribonucleic acid (DNA)
+developmental bio
+diploid
+DNA orientation
+dynamic programming - a method for solving complex problems by breaking them up into subproblems (frequently using memoization or caching)
+enzyme - a biochemical catalyst; enzymes can speed up chemical reactions in the cell
+eukaryote
+evolution - the effect of natural selection
+exon - transcribed & translated portion of a eukaryotic gene
+eyeless - famous example of a master regulatory gene
+FASTA
+frame-shift mutation - mutation (eg single-base insertion) which causes codons to be read in the wrong reading frame
+GC content
+GenBank
+gene
+gene annotation
+gene expression - process by which information in a gene is used to assemble a protein molecule
+gene sequencing
+genetic code - map between codons and amino acids (or stop signals)
+genome
+global alignment
+H. influenzae
+haploid
+haplotype
+heterozygous - having inherited different alleles for a particular gene from both parents
+hidden Markov model (HMM)
+high throughput technology
+histone
+homology
+homozygous - having inherited the same alleles for a particular gene from both parents
+horizontal gene transfer - acquisition of genetic material from another organism, such as a virus
+intron - transcribed, but not translated, portion of a eukaryotic gene
+junk DNA
+k-mer - a contiguous nucleotide sequence of length k, analogous to an n-gram (k=2 --> dimer, k=3 --> trimer)
+kinase - enzyme that catalyzes phosphorylation
+local alignment
+M. genitalium
+Markov model
+master regulatory gene - gene that produces proteins which control the expression (?) of other genes
+metabolic network - complete set of processes that determine the physiological/biochemical properties of a cell (including metabolic pathways & regulatory interactions)
+metabolic pathway - sequence of steps through which one chemical is transformed into another (reactions catalyzed by enzymes)
+metabolism - complex network of chemical reactions that take place in a cell and allow the cell to interact with its environment, derive necessary energy and nutrients, and eventually to reproduce
+microarray
+mitochondria
+mitochondrial DNA (mtDNA)
+motif
+mRNA
+multinomial model
+multiple alignment
+mutation
+natural selection - the mechanism by which evolution is carried out
+Needleman-Wunsch algorithm
+negative selection
+nucleotide
+open reading frame (ORF) - a stretch of DNA beginning with a start codon and ending with a stop codon
+organelle
+orthology
+paralogy
+phage
+phosphorylation - transfer of phosphate groups from a high-energy phosphate-containing molecule (like ATP) to a substrate 
+phylogenetic trees
+prokaryote
+protein - multipurpose molecules; made up of amino acids
+protein domain
+protein folding - process of forming a 3d protein from a chain of amino acids; building models to predict folding behavior is an area of active research and a "classical topic in bioinformatics"
+restriction site
+retrovirus
+reverse complement
+ribonucleic acid (RNA)
+ribosome
+sequence alignment
+Smith-Waterman algorithm
+structural biology
+substrate - molecule upon which an enzyme acts
+systems bio
+telomere - end bit of DNA molecule
+transcription
+translation
+variant
+virus
+whole-genome analysis
+translocation
