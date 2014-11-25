@@ -2,27 +2,29 @@ accession number - unique GenBank id
 adenosine triphosphate (ATP) - a form of adenine that serves as an energy storage molecule for the cell
 allele - one of two or more versions of a gene; an individual inherits two alleles for each gene, one from each parent
 amino acid - building blocks of proteins (are 20)
-archae
+Archae - a domain of single-celled micro-organisms, distinct from Bacteria in their biochemistry
 Bacteriophage lambda
 base
 binding site
-BLAST
-C. elegans
+BLAST - a widely-used program for searching DNA & protein sequence databases for sequences similar to a query sequence
+C-value enigma - name given to the wide variance in nuclear genome size among eukaryotes (particularly with respect to non-coding DNA)
+C. elegans - a 1mm long roundworm; the first multicellular organism to have its whole genome sequenced (also the only organism to have its connectome mapped)
 catalyst - a substance that speeds up a chemical reaction without undergoing any permanent chemical change itself
 cell - the fundamental biological unit; cells are the "basic building blocks of all living things"
 cell signaling - mechanism that coordinates actions of the cell; basis of development, tissue repair, immunity, homeostasis
 central dogma of molecular bio - DNA makes RNA makes protein!
+chloroplast - organelle in plant cells responsible for photosynthesis
 chromosome - nuclear structure containing DNA; humans have 23 pairs of autosomes & 1 pair of sex chromosomes
 codon - a sequence of three nucleotides that codes for a particular amino acid
 complementary strand
-D. melanogaster
-deoxyribonucleic acid (DNA)
-developmental bio
-diploid
+developmental biology - study of cell growth, differentiation, and morphogenesis (spatial distribution)
+diploid - a cell containing two sets of chromosomes (one from each parent)
+DNA
 DNA orientation
+Drosophila melanogaster - the common fruit fly; used as a model organism in genetics, one of the most studied organisms in biology
 dynamic programming - a method for solving complex problems by breaking them up into subproblems (frequently using memoization or caching)
 enzyme - a biochemical catalyst; enzymes can speed up chemical reactions in the cell
-eukaryote
+eukaryote - organism whose cells contain nuclei & membrane-bound organelles; all multicellular organisms (and some unicellular organisms) are eukaryotes
 evolution - the effect of natural selection
 exon - transcribed & translated portion of a eukaryotic gene
 eyeless - famous example of a master regulatory gene
@@ -38,63 +40,68 @@ genetic code - map between codons and amino acids (or stop signals)
 genome
 global alignment
 H. influenzae
-haploid
+haploid - a cell containing one set of chromosomes
 haplotype
 heterozygous - having inherited different alleles for a particular gene from both parents
-hidden Markov model (HMM)
+hidden Markov model (HMM) - a Markov model with latent states
 high throughput technology
+histology - study of the microscopic structure of cells & tissues
 histone
 homology
 homozygous - having inherited the same alleles for a particular gene from both parents
 horizontal gene transfer - acquisition of genetic material from another organism, such as a virus
+indel - a letter paired with a gap in a sequence alignment (represents either an insertion or a deletion, depending on the perspective)
 intron - transcribed, but not translated, portion of a eukaryotic gene
 junk DNA
 k-mer - a contiguous nucleotide sequence of length k, analogous to an n-gram (k=2 --> dimer, k=3 --> trimer)
 kinase - enzyme that catalyzes phosphorylation
 local alignment
 M. genitalium
-Markov model
+Markov model - a probabilistic model of state transitions which exhibits the Markov property (eg, the state at time t depends only on the state at time t-1)
 master regulatory gene - gene that produces proteins which control the expression (?) of other genes
 metabolic network - complete set of processes that determine the physiological/biochemical properties of a cell (including metabolic pathways & regulatory interactions)
 metabolic pathway - sequence of steps through which one chemical is transformed into another (reactions catalyzed by enzymes)
-metabolism - complex network of chemical reactions that take place in a cell and allow the cell to interact with its environment, derive necessary energy and nutrients, and eventually to reproduce
+metabolism - complex network of chemical reactions in the cell that allow it to interact with its environment, derive energy and nutrients, and eventually reproduce
 microarray
-mitochondria
-mitochondrial DNA (mtDNA)
+mitochondria - organelles found in most eukaryotic cells which generate most of the cell's ATP; "the powerhouse of the cell!"
 motif
 mRNA
+mtDNA - mitochondrial DNA; 
 multinomial model
 multiple alignment
 mutation
 natural selection - the mechanism by which evolution is carried out
 Needleman-Wunsch algorithm
 negative selection
-nucleotide
+non-coding DNA
+nuclear genome - genome contained in the cell's nucleus (instead of mitochondria or chloroplasts)
+nucleotide - molecular subunit of nucleic acids (DNA & RNA)
 open reading frame (ORF) - a stretch of DNA beginning with a start codon and ending with a stop codon
-organelle
+organelle - a specialized subunit inside the cell with a particular function
 orthology
 paralogy
 phage
 phosphorylation - transfer of phosphate groups from a high-energy phosphate-containing molecule (like ATP) to a substrate 
 phylogenetic trees
-prokaryote
+prokaryote - a single-celled organism without a nucleus or other (membrane-bound) organelles 
 protein - multipurpose molecules; made up of amino acids
 protein domain
 protein folding - process of forming a 3d protein from a chain of amino acids; building models to predict folding behavior is an area of active research and a "classical topic in bioinformatics"
 restriction site
 retrovirus
 reverse complement
-ribonucleic acid (RNA)
+reverse transcription
 ribosome
-sequence alignment
+RNA - ribonucleic acid
+sequence alignment - a correspondence between characters in two strings (sequences)
 Smith-Waterman algorithm
 structural biology
 substrate - molecule upon which an enzyme acts
-systems bio
+systems biology
 telomere - end bit of DNA molecule
-transcription
-translation
+transcription - DNA --> RNA
+translation - RNA --> protein
+translocation
 variant
 virus
 whole-genome analysis
-translocation
