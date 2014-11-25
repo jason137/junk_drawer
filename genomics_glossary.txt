@@ -1,7 +1,7 @@
 accession number - unique GenBank id
 adenosine triphosphate (ATP) - a form of adenine that serves as an energy storage molecule for the cell
 allele - one of two or more versions of a gene; an individual inherits two alleles for each gene, one from each parent
-amino acid - building blocks of proteins (are 20)
+amino acid - building blocks of proteins (there are 20)
 Archae - a domain of single-celled micro-organisms, distinct from Bacteria in their biochemistry
 Bacteriophage lambda
 base
@@ -27,11 +27,11 @@ enzyme - a biochemical catalyst; enzymes can speed up chemical reactions in the 
 eukaryote - organism whose cells contain nuclei & membrane-bound organelles; all multicellular organisms (and some unicellular organisms) are eukaryotes
 evolution - the effect of natural selection
 exon - transcribed & translated portion of a eukaryotic gene
-eyeless - famous example of a master regulatory gene
+eyeless - a famous example of a master regulatory gene
 FASTA
 frame-shift mutation - mutation (eg single-base insertion) which causes codons to be read in the wrong reading frame
 GC content
-GenBank
+GenBank - annotated database of all publicly available nucleotide sequences and their protein translations; maintained by a branch of NIH
 gene
 gene annotation
 gene expression - process by which information in a gene is used to assemble a protein molecule
@@ -84,7 +84,7 @@ phage
 phosphorylation - transfer of phosphate groups from a high-energy phosphate-containing molecule (like ATP) to a substrate 
 phylogenetic trees
 prokaryote - a single-celled organism without a nucleus or other (membrane-bound) organelles 
-protein - multipurpose molecules; made up of amino acids
+protein - large molecule formed by chain of amino acids; folds into characteristic shape
 protein domain
 protein folding - process of forming a 3d protein from a chain of amino acids; building models to predict folding behavior is an area of active research and a "classical topic in bioinformatics"
 restriction site
@@ -93,15 +93,14 @@ reverse complement
 reverse transcription
 ribosome
 RNA - ribonucleic acid
-sequence alignment - a correspondence between characters in two strings (sequences)
+sequence alignment - a correspondence between characters in two (DNA/RNA/protein) sequences; meant to identify regions of similarity that may indicate biological relationships
 Smith-Waterman algorithm
 structural biology
 substrate - molecule upon which an enzyme acts
 systems biology
 telomere - end bit of DNA molecule
 transcription - DNA --> RNA
-translation - RNA --> protein
-translocation
+translation - RNA --> protein translocation
 variant
 virus
 whole-genome analysis
