@@ -1,6 +1,3 @@
-histo is GREAT!
-- add log?
-
 states.tsv          http://www.peakbagger.com/list.aspx?lid=12004
 epl.csv             https://github.com/footballcsv
 rayleigh.tsv        Tukey, EDA
