@@ -1,24 +1,37 @@
 #!/usr/bin/env python3
 # author: Jason Dolatshahi
+# ref: Tukey, EDA (http://amzn.to/1QMSrWo)
 
 import argparse, sys
 from collections import OrderedDict
 from operator import attrgetter
-import numpy as np
+
+from numpy import log, random, sqrt
 
 CHAR = '*'
 SIG_FIGS = 5
 
 parser = argparse.ArgumentParser(description='quick cmd-line histogram plotter')
 parser.add_argument('-b', metavar='num_bins', type=int, nargs='?',
-    help='number of bins', default=10)
+    help='number of bins',
+    default=10)
+parser.add_argument('-f', metavar='l/s/n', nargs='?', type=str,
+    help='nonlinear transf to apply (l = log, s = sqrt, n = negative reciprocal)',
+    default='i')
 parser.add_argument('-o', metavar='1/0', type=bool, nargs='?',
-    help='omit header row', default=True)
-parser.add_argument('-t', metavar='n/e', type=str, nargs='?',
-    help='run in test mode (n = normal, e = exp)')
+    help='omit header row (ignored in demo mode)',
+    default=True)
+parser.add_argument('-x', metavar='n/e/u', type=str, nargs='?',
+    help='run with demo data (n = normal, e = exp, u = unif)',
+    default=False)
 parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),
-     help='input file object', default=sys.stdin)
-args = parser.parse_args()
+    help='input file object',
+    default=sys.stdin)
+
+ARGS = ('b', 'f', 'o', 'x')
+DEMO_DISTRS = {'n': random.normal, 'e': random.exponential, 'u': random.uniform}
+DEMO_SAMPLE_SIZE = 200
+TRANSFS = {'l': log, 's': sqrt, 'n': lambda k: -1 / k, 'i': lambda k: k}
 
 def get_bins(nums, n_bins):
     """create n_bins bins from nums"""
@@ -102,25 +115,25 @@ def main(input_recs, n_bins):
 
 if __name__ == '__main__':
 
-    n_bins, omit_header, test_mode = attrgetter('b', 'o', 't')(args)
-    assert test_mode in ('n', 'e', None)
+    # parse cmd-line args
+    args = parser.parse_args()
+    n_bins, transf_key, omit_header, demo_key = attrgetter(*ARGS)(args)
 
-    # tests
-    if test_mode == 'n':
-        print('\ntest mode: normal RVs')
-        input_recs = 10 * np.random.normal(size=200)
+    if demo_key:
 
-    elif test_mode == 'e':
-        print('\ntest mode: exponential RVs')
-        input_recs = 10 * np.random.exponential(size=200)
+        # use random data
+        distr = DEMO_DISTRS[demo_key]
+        input_recs = distr(size=DEMO_SAMPLE_SIZE)
 
-    # get input from stdin
     else:
 
+        # get input from stdin
         input_recs = [k.rstrip() for k in args.infile.readlines()]
 
         if omit_header:
             header = input_recs.pop(0)
             print(header)
 
-    main(input_recs, n_bins)
+    transf = TRANSFS[transf_key]
+    transf_recs = list(map(transf, input_recs))
+    main(transf_recs, n_bins)
