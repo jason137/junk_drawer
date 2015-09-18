@@ -1,0 +1,184 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+22 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Ciao$.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Ciao$delayedInit$body.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Ciao.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1$$anonfun$1.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1$.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1$delayedInit$body.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$2.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$3.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$4$$anonfun$apply$2$$anonfun$apply$3.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$4$$anonfun$apply$2.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$4.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$delayedInit$body.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcZI$sp$1.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcZI$sp$2.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5$$anonfun$apply$1.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$delayedInit$body.class
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3.class
+binary dependencies:
+2 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+/Users/jason/gits/junk_drawer/scala/hello.scala -> /Users/jason/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+22 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Ciao
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Ciao$
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Ciao$delayedInit$body
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler1
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler1$
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler1$$anonfun$1
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler1$delayedInit$body
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$$anonfun$2
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$$anonfun$3
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$$anonfun$4
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$$anonfun$4$$anonfun$apply$2
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$$anonfun$4$$anonfun$apply$2$$anonfun$apply$3
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2$delayedInit$body
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3$
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3$$anonfun$5
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3$$anonfun$5$$anonfun$apply$1
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcZI$sp$1
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcZI$sp$2
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3$delayedInit$body
+used names:
+46 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> #::
+/Users/jason/gits/junk_drawer/scala/hello.scala -> %
+/Users/jason/gits/junk_drawer/scala/hello.scala -> *
+/Users/jason/gits/junk_drawer/scala/hello.scala -> +
+/Users/jason/gits/junk_drawer/scala/hello.scala -> <
+/Users/jason/gits/junk_drawer/scala/hello.scala -> <=
+/Users/jason/gits/junk_drawer/scala/hello.scala -> <init>
+/Users/jason/gits/junk_drawer/scala/hello.scala -> ==
+/Users/jason/gits/junk_drawer/scala/hello.scala -> >
+/Users/jason/gits/junk_drawer/scala/hello.scala -> App
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Ciao
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler1
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler2
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Euler3
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Int
+/Users/jason/gits/junk_drawer/scala/hello.scala -> IntIsIntegral
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Numeric
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Predef
+/Users/jason/gits/junk_drawer/scala/hello.scala -> Stream
+/Users/jason/gits/junk_drawer/scala/hello.scala -> _1
+/Users/jason/gits/junk_drawer/scala/hello.scala -> _2
+/Users/jason/gits/junk_drawer/scala/hello.scala -> canBuildFrom
+/Users/jason/gits/junk_drawer/scala/hello.scala -> consWrapper
+/Users/jason/gits/junk_drawer/scala/hello.scala -> fibs
+/Users/jason/gits/junk_drawer/scala/hello.scala -> filter
+/Users/jason/gits/junk_drawer/scala/hello.scala -> forall
+/Users/jason/gits/junk_drawer/scala/hello.scala -> from
+/Users/jason/gits/junk_drawer/scala/hello.scala -> i
+/Users/jason/gits/junk_drawer/scala/hello.scala -> immutable
+/Users/jason/gits/junk_drawer/scala/hello.scala -> intWrapper
+/Users/jason/gits/junk_drawer/scala/hello.scala -> j
+/Users/jason/gits/junk_drawer/scala/hello.scala -> k
+/Users/jason/gits/junk_drawer/scala/hello.scala -> map
+/Users/jason/gits/junk_drawer/scala/hello.scala -> math
+/Users/jason/gits/junk_drawer/scala/hello.scala -> n
+/Users/jason/gits/junk_drawer/scala/hello.scala -> package
+/Users/jason/gits/junk_drawer/scala/hello.scala -> primes
+/Users/jason/gits/junk_drawer/scala/hello.scala -> println
+/Users/jason/gits/junk_drawer/scala/hello.scala -> scala
+/Users/jason/gits/junk_drawer/scala/hello.scala -> sum
+/Users/jason/gits/junk_drawer/scala/hello.scala -> tail
+/Users/jason/gits/junk_drawer/scala/hello.scala -> takeWhile
+/Users/jason/gits/junk_drawer/scala/hello.scala -> until
+/Users/jason/gits/junk_drawer/scala/hello.scala -> vals
+/Users/jason/gits/junk_drawer/scala/hello.scala -> zip
+/Users/jason/gits/junk_drawer/scala/hello.scala -> ||
+product stamps:
+22 items
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Ciao$.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Ciao$delayedInit$body.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Ciao.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1$$anonfun$1.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1$.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1$delayedInit$body.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler1.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$2.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$3.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$4$$anonfun$apply$2$$anonfun$apply$3.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$4$$anonfun$apply$2.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$$anonfun$4.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2$delayedInit$body.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler2.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcZI$sp$1.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcZI$sp$2.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5$$anonfun$apply$1.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$$anonfun$5.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3$delayedInit$body.class -> lastModified(1415995046000)
+/Users/jason/gits/junk_drawer/scala/target/scala-2.10/classes/Euler3.class -> lastModified(1415995046000)
+source stamps:
+1 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> hash(67a46e93b0037d4600ec473bbd7f46893d937223)
+binary stamps:
+2 items
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar -> lastModified(1381430168000)
+/Users/jason/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+class names:
+2 items
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar -> java.lang.Object
+/Users/jason/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.App
+internal apis:
+1 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBj7+hSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGXiH090AAZwcmltZXNzcQB+AAwDAA85dAAGbm90aWZ5c3EAfgAM/AQCmnQABHdhaXRzcQB+AAxrf0ISdAANJGFzSW5zdGFuY2VPZnNxAH4ADGZLUZ90AAZlcXVhbHNzcQB+AAxVrdrsdAAGRXVsZXIzc3EAfgAMsBwZYXQABGZpYnNzcQB+AAwQuxCfdAAMYXNJbnN0YW5jZU9mc3EAfgAM0j4M7HQADmV4ZWN1dGlvblN0YXJ0c3EAfgAM3B6ZUnQABHZhbHNzcQB+AAzcRZXGdAAMc3luY2hyb25pemVkc3EAfgAM+en2enQADSRpc0luc3RhbmNlT2ZzcQB+AAxASSXbdAAFX2FyZ3NzcQB+AAxGQ6pZdAAEbWFpbnNxAH4ADKSu26V0AAhpbml0Q29kZXNxAH4ADNu4z190AAlub3RpZnlBbGxzcQB+AAyt9Cx1dAAMaXNJbnN0YW5jZU9mc3EAfgAMenZ05HQABENpYW9zcQB+AAz3RVjSdAACPT1zcQB+AAx6V9H3dAAFY2xvbmVzcQB+AAxa4P/8dAAIdG9TdHJpbmdzcQB+AAzdk3okdAAEYXJnc3NxAH4ADNrgcmN0AAIhPXNxAH4ADLjwkWl0AAhnZXRDbGFzc3NxAH4ADFUZL+h0AAZFdWxlcjFzcQB+AAwRd7KwdAACbmVzcQB+AAyJYx7ZdAAGRXVsZXIyc3EAfgAMKyZKqHQAAmVxc3EAfgAMBk7KcnQAC2RlbGF5ZWRJbml0c3EAfgAMaBmA1nQAAiMjc3EAfgAMoKbjmnQACGZpbmFsaXplc3EAfgAM8VYWq3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AV3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAxdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Ab3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AbgBwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4Ad3NxAH4AbgBwc3EAfgBzdXEAfgBSAAAAAHNxAH4AbgBwc3EAfgBzdXEAfgBSAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBYcQB+AGF1cQB+AGIAAAAAc3EAfgBkAHEAfgApdXEAfgBmAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHZ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCXdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AhHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AaXQABVBsYWlucQB+ADlzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AItbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHZzcQB+AIp0AAVBcnJheXEAfgCQdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIp0AAZTdHJpbmdzcQB+AI5zcQB+AJF1cQB+AJQAAAADc3EAfgCWdAAEamF2YXNxAH4AlnQ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
+external apis:
+0 items
+source infos:
+1 items
+/Users/jason/gits/junk_drawer/scala/hello.scala -> 
+AAAAAAAAAAIAAAEAAAAJADsgICAgcHJpbnRsbih2YWxzIGZpbHRlcihrID0+IGsgJSAzID09IDAgfHwgayAlIDUgPT0gMCkgc3VtKQEAAADuAQAAADcBADcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAQAvL1VzZXJzL2phc29uL2dpdHMvanVua19kcmF3ZXIvc2NhbGEvaGVsbG8uc2NhbGEBAC8vVXNlcnMvamFzb24vZ2l0cy9qdW5rX2RyYXdlci9zY2FsYS9oZWxsby5zY2FsYQFocG9zdGZpeCBvcGVyYXRvciBzdW0gc2hvdWxkIGJlIGVuYWJsZWQKYnkgbWFraW5nIHRoZSBpbXBsaWNpdCB2YWx1ZSBzY2FsYS5sYW5ndWFnZS5wb3N0Zml4T3BzIHZpc2libGUuClRoaXMgY2FuIGJlIGFjaGlldmVkIGJ5IGFkZGluZyB0aGUgaW1wb3J0IGNsYXVzZSAnaW1wb3J0IHNjYWxhLmxhbmd1YWdlLnBvc3RmaXhPcHMnCm9yIGJ5IHNldHRpbmcgdGhlIGNvbXBpbGVyIG9wdGlvbiAtbGFuZ3VhZ2U6cG9zdGZpeE9wcy4KU2VlIHRoZSBTY2FsYSBkb2NzIGZvciB2YWx1ZSBzY2FsYS5sYW5ndWFnZS5wb3N0Zml4T3BzIGZvciBhIGRpc2N1c3Npb24Kd2h5IHRoZSBmZWF0dXJlIHNob3VsZCBiZSBleHBsaWNpdGx5IGVuYWJsZWQuAQAAAQAAAA4ARiAgICBwcmludGxuKGZpYnMgdGFrZVdoaWxlIChfIDwgNDAwMDAwMCkgZmlsdGVyIChrID0+IGsgJSAyID09IDApIHN1bSkBAAABpgEAAABCAQBCICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAQAvL1VzZXJzL2phc29uL2dpdHMvanVua19kcmF3ZXIvc2NhbGEvaGVsbG8uc2NhbGEBAC8vVXNlcnMvamFzb24vZ2l0cy9qdW5rX2RyYXdlci9zY2FsYS9oZWxsby5zY2FsYQBmcG9zdGZpeCBvcGVyYXRvciBzdW0gc2hvdWxkIGJlIGVuYWJsZWQKYnkgbWFraW5nIHRoZSBpbXBsaWNpdCB2YWx1ZSBzY2FsYS5sYW5ndWFnZS5wb3N0Zml4T3BzIHZpc2libGUuAQ==
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSa/hq/R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9Vc2Vycy9qYXNvbi9naXRzL2p1bmtfZHJhd2VyL3NjYWxhL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
