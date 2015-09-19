@@ -12,6 +12,9 @@ CHAR = '*'
 SIG_FIGS = 5
 
 parser = argparse.ArgumentParser(description='quick cmd-line histogram plotter')
+parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),
+    help='input file object',
+    default=sys.stdin)
 parser.add_argument('-b', metavar='num_bins', type=int, nargs='?',
     help='number of bins',
     default=10)
@@ -24,14 +27,22 @@ parser.add_argument('-o', metavar='1/0', type=bool, nargs='?',
 parser.add_argument('-x', metavar='n/e/u', type=str, nargs='?',
     help='run with demo data (n = normal, e = exp, u = unif)',
     default=False)
-parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),
-    help='input file object',
-    default=sys.stdin)
 
-ARGS = ('b', 'f', 'o', 'x')
+ARGS = ('infile', 'b', 'f', 'o', 'x')
+EPS = 0.00001
+
 DEMO_DISTRS = {'n': random.normal, 'e': random.exponential, 'u': random.uniform}
+DEMO_NAMES = {'n': 'normal', 'e': 'exp', 'u': 'unif'}
 DEMO_SAMPLE_SIZE = 200
-TRANSFS = {'l': log, 's': sqrt, 'n': lambda k: -1 / k, 'i': lambda k: k}
+
+TRANSFS = {'l': lambda k: log(k + EPS) if k == 0 else log(k),    # fat log
+    's': sqrt,
+    'n': lambda k: -1 / k,
+    'i': lambda k: k}
+
+TRANSF_NAMES = {'l': 'log', 's': 'sqrt', 'n': 'negative reciprocal',
+    'i': 'identity'}
+
 
 def get_bins(nums, n_bins):
     """create n_bins bins from nums"""
@@ -101,39 +112,48 @@ def display_histo(histo):
             print('problem:', disp_k)
             raise
 
-def main(input_recs, n_bins):
+def get_recs(infile, transf_key, omit_header, demo_key):
 
-    nonblank_recs = [k for k in input_recs if k != '']
-    num_blanks = sum([1 for k in input_recs if k == ''])
-
-    float_values = list(map(float, nonblank_recs))
-    bins = get_bins(float_values, n_bins)
-    histo = get_histo(bins, float_values)
-
-    print('num_blanks =', num_blanks)
-    display_histo(histo)
-
-if __name__ == '__main__':
-
-    # parse cmd-line args
-    args = parser.parse_args()
-    n_bins, transf_key, omit_header, demo_key = attrgetter(*ARGS)(args)
+    transf = TRANSFS[transf_key]
 
     if demo_key:
 
         # use random data
         distr = DEMO_DISTRS[demo_key]
         input_recs = distr(size=DEMO_SAMPLE_SIZE)
+        header = 'demo: distr = {}'.format(DEMO_NAMES[demo_key])
 
     else:
 
         # get input from stdin
-        input_recs = [k.rstrip() for k in args.infile.readlines()]
+        input_recs = [k.rstrip() for k in infile.readlines()]
 
         if omit_header:
             header = input_recs.pop(0)
-            print(header)
 
-    transf = TRANSFS[transf_key]
-    transf_recs = list(map(transf, input_recs))
-    main(transf_recs, n_bins)
+    nonblank_recs = [k for k in input_recs if k != '']
+    num_blanks = sum([1 for k in input_recs if k == ''])
+
+    float_values = list(map(float, nonblank_recs))
+    transf_values = list(map(transf, float_values))
+
+    # side effects
+    header += ', transf = {}'.format(TRANSF_NAMES[transf_key])
+    print(header)
+    print('num_blanks =', num_blanks)
+
+    return transf_values
+
+def main(infile, num_bins, transf_key, omit_header, demo_key):
+
+    recs = get_recs(infile, transf_key, omit_header, demo_key)
+    bins = get_bins(recs, num_bins)
+    histo = get_histo(bins, recs)
+
+    display_histo(histo)
+
+if __name__ == '__main__':
+
+    args_ns = parser.parse_args()
+    args = attrgetter(*ARGS)(args_ns)
+    main(*args)
