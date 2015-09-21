@@ -5,6 +5,8 @@ mauna_loa.tsv       http://www.esrl.noaa.gov/gmd/ccgg/trends/#mlo
 coffee.tsv          http://backreaction.blogspot.fr/2013/08/researchers-and-coffee-consumption.html
 gdp.csv             http://data.worldbank.org/indicator/NY.GDP.PCAP.CD
 restaurants.json    https://nycopendata.socrata.com/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/xx67-kt59
+meteorites.csv      https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh
+*.pgn               http://www.pgnmentor.com/files.html#players
 
 mauna loa: segue from numerical to graphical summaries
 --> geom_point, geom_line, geom_smooth(se=False)
@@ -13,3 +15,5 @@ look at rayleigh for large num_bins (huge range)
 look at states for large num_bins (groups emerge)
 
 rayleigh box & whisker plot?
+
+sort | uniq -c for quick display of counts
