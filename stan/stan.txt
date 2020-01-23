@@ -1,0 +1,44 @@
+goal		posterior inference (Bayes)
+approach	generative models through simulation of causal dags
+
+
+## BASIC ##
+
+https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html
+
+https://mc-stan.org/users/documentation/case-studies/radon.html
+https://mc-stan.org/users/documentation/case-studies/pool-binary-trials.html
+
+x https://mc-stan.org/users/documentation/case-studies/pystan_workflow.html
+https://mc-stan.org/docs/2_20/stan-users-guide/index.html
+
+## INTERMEDIATE ##
+
+https://mc-stan.org/users/documentation/case-studies/losscurves_casestudy.html
+https://mc-stan.org/users/documentation/case-studies/divergences_and_bias.html
+https://mc-stan.org/users/documentation/case-studies/weakly_informative_shapes.html
+
+## ADVANCED ##
+
+https://mc-stan.org/users/documentation/case-studies/curse-dims-python.html
+https://mc-stan.org/users/documentation/case-studies/mle-params.html
+
+
+It is worth calling out the most important aspect of constrained data types:
+
+The model must have support (non-zero density, equivalently finite log density)
+at parameter values that satisfy the declared constraints.
+
+If this condition is violated with parameter values that satisfy declared
+constraints but do not have finite log density, then the samplers and
+optimizers may have any of a number of pathologies including just getting
+stuck, failure to initialize, excessive Metropolis rejection, or biased draws
+due to inability to explore the tails of the distribution.
+
+https://mc-stan.org/docs/2_18/reference-manual/index.html
+
+https://mc-stan.org/misc/warnings.html
+
+https://statmodeling.stat.columbia.edu/2015/10/15/whats-the-one-thing-you-have-to-know-about-pystan-and-pymc-click-here-to-find-out/
+
+https://betanalpha.github.io/writing/

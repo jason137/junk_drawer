@@ -1,3 +1,5 @@
 *.DS_Store
 *.swp
 *.class
+*.pkl
+*.pyc
